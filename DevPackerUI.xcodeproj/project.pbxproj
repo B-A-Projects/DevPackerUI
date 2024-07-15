@@ -3,7 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
+<<<<<<< HEAD
 	objectVersion = 60;
+=======
+	objectVersion = 56;
+>>>>>>> 92216bcd06f111cdcdbd0219e62a1db4b867de17
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,7 +19,10 @@
 		0D816AE92C3EBC5E00FE14EB /* DevPackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D816AE82C3EBC5E00FE14EB /* DevPackerUITests.swift */; };
 		0D816AF32C3EBC5E00FE14EB /* DevPackerUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D816AF22C3EBC5E00FE14EB /* DevPackerUIUITests.swift */; };
 		0D816AF52C3EBC5E00FE14EB /* DevPackerUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D816AF42C3EBC5E00FE14EB /* DevPackerUIUITestsLaunchTests.swift */; };
+<<<<<<< HEAD
 		0D816B032C3EBE0400FE14EB /* DevPackerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 0D816B022C3EBE0400FE14EB /* DevPackerLib */; };
+=======
+>>>>>>> 92216bcd06f111cdcdbd0219e62a1db4b867de17
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +62,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				0D816B032C3EBE0400FE14EB /* DevPackerLib in Frameworks */,
+=======
+>>>>>>> 92216bcd06f111cdcdbd0219e62a1db4b867de17
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +160,12 @@
 			dependencies = (
 			);
 			name = DevPackerUI;
+<<<<<<< HEAD
 			packageProductDependencies = (
 				0D816B022C3EBE0400FE14EB /* DevPackerLib */,
 			);
+=======
+>>>>>>> 92216bcd06f111cdcdbd0219e62a1db4b867de17
 			productName = DevPackerUI;
 			productReference = 0D816AD12C3EBC5A00FE14EB /* DevPackerUI.app */;
 			productType = "com.apple.product-type.application";
@@ -225,9 +238,12 @@
 				Base,
 			);
 			mainGroup = 0D816AC82C3EBC5A00FE14EB;
+<<<<<<< HEAD
 			packageReferences = (
 				0D816B012C3EBE0400FE14EB /* XCLocalSwiftPackageReference "../DevPackerLib" */,
 			);
+=======
+>>>>>>> 92216bcd06f111cdcdbd0219e62a1db4b867de17
 			productRefGroup = 0D816AD22C3EBC5A00FE14EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -587,6 +603,7 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+<<<<<<< HEAD
 
 /* Begin XCLocalSwiftPackageReference section */
 		0D816B012C3EBE0400FE14EB /* XCLocalSwiftPackageReference "../DevPackerLib" */ = {
@@ -601,6 +618,8 @@
 			productName = DevPackerLib;
 		};
 /* End XCSwiftPackageProductDependency section */
+=======
+>>>>>>> 92216bcd06f111cdcdbd0219e62a1db4b867de17
 	};
 	rootObject = 0D816AC92C3EBC5A00FE14EB /* Project object */;
 }

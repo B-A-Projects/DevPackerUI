@@ -7,7 +7,10 @@
 
 import SwiftUI
 import SwiftData
+<<<<<<< HEAD
 import DevPackerLib
+=======
+>>>>>>> 92216bcd06f111cdcdbd0219e62a1db4b867de17
 
 @main
 struct DevPackerUIApp: App {
@@ -23,7 +26,11 @@ struct DevPackerUIApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 92216bcd06f111cdcdbd0219e62a1db4b867de17
     var body: some Scene {
         WindowGroup {
             ContentView()
