@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D37563E2C77C130002ED731 /* FilesystemTableEntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D37563D2C77C130002ED731 /* FilesystemTableEntryModel.swift */; };
+		0D3756402C77C410002ED731 /* FilesystemTableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D37563F2C77C410002ED731 /* FilesystemTableList.swift */; };
 		0D816B4A2C4574CD00FE14EB /* DevPackerUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D816B492C4574CD00FE14EB /* DevPackerUIApp.swift */; };
-		0D816B4C2C4574CD00FE14EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D816B4B2C4574CD00FE14EB /* ContentView.swift */; };
-		0D816B4E2C4574CD00FE14EB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D816B4D2C4574CD00FE14EB /* Item.swift */; };
 		0D816B502C4574CE00FE14EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D816B4F2C4574CE00FE14EB /* Assets.xcassets */; };
 		0D816B532C4574CE00FE14EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D816B522C4574CE00FE14EB /* Preview Assets.xcassets */; };
 		0D816B5E2C4574CE00FE14EB /* DevPackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D816B5D2C4574CE00FE14EB /* DevPackerUITests.swift */; };
 		0D816B682C4574CE00FE14EB /* DevPackerUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D816B672C4574CE00FE14EB /* DevPackerUIUITests.swift */; };
 		0D816B6A2C4574CE00FE14EB /* DevPackerUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D816B692C4574CE00FE14EB /* DevPackerUIUITestsLaunchTests.swift */; };
+		0D816B7A2C4ED65B00FE14EB /* DevPackerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 0D816B792C4ED65B00FE14EB /* DevPackerLib */; };
+		0D816B7C2C4EDB2500FE14EB /* GamePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D816B7B2C4EDB2500FE14EB /* GamePackage.swift */; };
+		0DB10B852D3E9F7B00F4DE2F /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB10B842D3E9F5D00F4DE2F /* Environment.swift */; };
+		0DB10B882D3E9FBF00F4DE2F /* PackageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB10B872D3E9FB700F4DE2F /* PackageType.swift */; };
+		0DD8A21B2C80B276004DAC06 /* EnvironmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD8A21A2C80B276004DAC06 /* EnvironmentList.swift */; };
+		0DDF15672D3D61D800DACE02 /* GameDisc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF15662D3D61D500DACE02 /* GameDisc.swift */; };
+		0DE0D5AB2C85B1E6004EF5ED /* MetadataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0D5AA2C85B1E6004EF5ED /* MetadataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D37563D2C77C130002ED731 /* FilesystemTableEntryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesystemTableEntryModel.swift; sourceTree = "<group>"; };
+		0D37563F2C77C410002ED731 /* FilesystemTableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesystemTableList.swift; sourceTree = "<group>"; };
 		0D816B462C4574CD00FE14EB /* DevPackerUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevPackerUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D816B492C4574CD00FE14EB /* DevPackerUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevPackerUIApp.swift; sourceTree = "<group>"; };
-		0D816B4B2C4574CD00FE14EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0D816B4D2C4574CD00FE14EB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		0D816B4F2C4574CE00FE14EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D816B522C4574CE00FE14EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0D816B542C4574CE00FE14EB /* DevPackerUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevPackerUI.entitlements; sourceTree = "<group>"; };
@@ -47,6 +54,12 @@
 		0D816B632C4574CE00FE14EB /* DevPackerUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevPackerUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D816B672C4574CE00FE14EB /* DevPackerUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevPackerUIUITests.swift; sourceTree = "<group>"; };
 		0D816B692C4574CE00FE14EB /* DevPackerUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevPackerUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D816B7B2C4EDB2500FE14EB /* GamePackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePackage.swift; sourceTree = "<group>"; };
+		0DB10B842D3E9F5D00F4DE2F /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		0DB10B872D3E9FB700F4DE2F /* PackageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageType.swift; sourceTree = "<group>"; };
+		0DD8A21A2C80B276004DAC06 /* EnvironmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentList.swift; sourceTree = "<group>"; };
+		0DDF15662D3D61D500DACE02 /* GameDisc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDisc.swift; sourceTree = "<group>"; };
+		0DE0D5AA2C85B1E6004EF5ED /* MetadataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D816B7A2C4ED65B00FE14EB /* DevPackerLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D37563A2C7799C3002ED731 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D37563F2C77C410002ED731 /* FilesystemTableList.swift */,
+				0DD8A21A2C80B276004DAC06 /* EnvironmentList.swift */,
+				0DE0D5AA2C85B1E6004EF5ED /* MetadataView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D37563B2C7799CD002ED731 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DDF15662D3D61D500DACE02 /* GameDisc.swift */,
+				0D816B7B2C4EDB2500FE14EB /* GamePackage.swift */,
+				0D37563D2C77C130002ED731 /* FilesystemTableEntryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0D37563C2C7799DC002ED731 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		0D816B3D2C4574CD00FE14EB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,7 @@
 				0D816B5C2C4574CE00FE14EB /* DevPackerUITests */,
 				0D816B662C4574CE00FE14EB /* DevPackerUIUITests */,
 				0D816B472C4574CD00FE14EB /* Products */,
+				0D816B782C4ED65B00FE14EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +139,12 @@
 		0D816B482C4574CD00FE14EB /* DevPackerUI */ = {
 			isa = PBXGroup;
 			children = (
+				0DB10B862D3E9FA700F4DE2F /* Enums */,
+				0DB10B832D3E9ECF00F4DE2F /* Interfaces */,
+				0D37563C2C7799DC002ED731 /* Resources */,
+				0D37563B2C7799CD002ED731 /* Models */,
+				0D37563A2C7799C3002ED731 /* Views */,
 				0D816B492C4574CD00FE14EB /* DevPackerUIApp.swift */,
-				0D816B4B2C4574CD00FE14EB /* ContentView.swift */,
-				0D816B4D2C4574CD00FE14EB /* Item.swift */,
 				0D816B4F2C4574CE00FE14EB /* Assets.xcassets */,
 				0D816B542C4574CE00FE14EB /* DevPackerUI.entitlements */,
 				0D816B512C4574CE00FE14EB /* Preview Content */,
@@ -132,6 +177,29 @@
 			path = DevPackerUIUITests;
 			sourceTree = "<group>";
 		};
+		0D816B782C4ED65B00FE14EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DB10B832D3E9ECF00F4DE2F /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				0DB10B842D3E9F5D00F4DE2F /* Environment.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		0DB10B862D3E9FA700F4DE2F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				0DB10B872D3E9FB700F4DE2F /* PackageType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +216,9 @@
 			dependencies = (
 			);
 			name = DevPackerUI;
+			packageProductDependencies = (
+				0D816B792C4ED65B00FE14EB /* DevPackerLib */,
+			);
 			productName = DevPackerUI;
 			productReference = 0D816B462C4574CD00FE14EB /* DevPackerUI.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +291,9 @@
 				Base,
 			);
 			mainGroup = 0D816B3D2C4574CD00FE14EB;
+			packageReferences = (
+				0DE0D5A52C821FA8004EF5ED /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = 0D816B472C4574CD00FE14EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,8 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D816B4C2C4574CD00FE14EB /* ContentView.swift in Sources */,
-				0D816B4E2C4574CD00FE14EB /* Item.swift in Sources */,
+				0DE0D5AB2C85B1E6004EF5ED /* MetadataView.swift in Sources */,
+				0D816B7C2C4EDB2500FE14EB /* GamePackage.swift in Sources */,
+				0D37563E2C77C130002ED731 /* FilesystemTableEntryModel.swift in Sources */,
+				0DDF15672D3D61D800DACE02 /* GameDisc.swift in Sources */,
+				0D3756402C77C410002ED731 /* FilesystemTableList.swift in Sources */,
+				0DD8A21B2C80B276004DAC06 /* EnvironmentList.swift in Sources */,
+				0DB10B882D3E9FBF00F4DE2F /* PackageType.swift in Sources */,
+				0DB10B852D3E9F7B00F4DE2F /* Environment.swift in Sources */,
 				0D816B4A2C4574CD00FE14EB /* DevPackerUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +511,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DevPackerUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +538,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"DevPackerUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -579,6 +661,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0DE0D5A52C821FA8004EF5ED /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D816B792C4ED65B00FE14EB /* DevPackerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DevPackerLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0D816B3E2C4574CD00FE14EB /* Project object */;
 }

@@ -12,7 +12,8 @@ import SwiftData
 struct DevPackerUIApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            GameDisc.self,
+            GamePackage.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +26,7 @@ struct DevPackerUIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EnvironmentList()
         }
         .modelContainer(sharedModelContainer)
     }
