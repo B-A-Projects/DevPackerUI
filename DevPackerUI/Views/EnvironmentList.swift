@@ -10,37 +10,37 @@ import SwiftUI
 import SwiftData
 
 struct EnvironmentList: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var environments: [WiiUGame]
-    
+    @Environment(\.modelContext) private var modelContext: ModelContext
+    @Query private var environments: [GameModel]
+
     @State private var viewDetails: Bool = false
     
     var body: some View {
         HStack {
             NavigationSplitView() {
                 List {
-                    ForEach(environments) { environment in
-                        NavigationLink {
-                            let filesystemList = FilesystemTableEntryModel(FilesystemTableEntry: environment.content!.fileSystem.entryTable)
-                            FilesystemTableList(filesystemTableRows: [filesystemList])
-                        } label: {
-                            Text("Package at \(environment.content?.directoryUrl.path(percentEncoded: false) ?? "empty")")
-                        }
-                    }
+//                    ForEach(environments) { environment in
+//                        NavigationLink {
+//                            let filesystemList = FilesystemTableEntryModel(FilesystemTableEntry: environment.content!.fileSystem.entryTable)
+//                            FilesystemTableList(filesystemTableRows: [filesystemList])
+//                        } label: {
+//                            Text("Package at \(environment.content?.directoryUrl.path(percentEncoded: false) ?? "empty")")
+//                        }
+//                    }
                 }
                 .navigationSplitViewColumnWidth(min: 180, ideal: 200)
                 .toolbar {
-                    ToolbarItem {
-                        Button(action: {
-                            let url = getDirectory()
-                            if (url != nil) {
-                                let newItem = (DirectoryPath: url!)
-                                modelContext.insert(newItem)
-                            }
-                        }) {
-                            Label("Add environment", systemImage: "plus")
-                        }
-                    }
+//                    ToolbarItem {
+//                        Button(action: {
+//                            let url = getDirectory()
+//                            if (url != nil) {
+//                                let newItem = (DirectoryPath: url!)
+//                                modelContext.insert(newItem)
+//                            }
+//                        }) {
+//                            Label("Add environment", systemImage: "plus")
+//                        }
+//                    }
                 }
             } content: {
                 Text("Content view.")
@@ -71,14 +71,6 @@ struct EnvironmentList: View {
         panel.canChooseFiles = false
         panel.canCreateDirectories = false
         return panel.runModal() == .OK ? panel.urls.first : nil
-    }
-    
-    private func parseGame(Directory url: URL) -> WiiUGame? {
-        let discPath = url.append(Component: "game.wud")
-        if FileManager().fileExists(atPath: discPath.path()) {
-            return GameDisc(DirectoryPath: url)
-        }
-        return GamePackage(DirectoryPath: url)
     }
 }
 

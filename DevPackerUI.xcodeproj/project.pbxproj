@@ -16,11 +16,8 @@
 		0D816B682C4574CE00FE14EB /* DevPackerUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D816B672C4574CE00FE14EB /* DevPackerUIUITests.swift */; };
 		0D816B6A2C4574CE00FE14EB /* DevPackerUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D816B692C4574CE00FE14EB /* DevPackerUIUITestsLaunchTests.swift */; };
 		0D816B7A2C4ED65B00FE14EB /* DevPackerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 0D816B792C4ED65B00FE14EB /* DevPackerLib */; };
-		0D816B7C2C4EDB2500FE14EB /* GamePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D816B7B2C4EDB2500FE14EB /* GamePackage.swift */; };
-		0DB10B852D3E9F7B00F4DE2F /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB10B842D3E9F5D00F4DE2F /* Environment.swift */; };
-		0DB10B882D3E9FBF00F4DE2F /* PackageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB10B872D3E9FB700F4DE2F /* PackageType.swift */; };
 		0DD8A21B2C80B276004DAC06 /* EnvironmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD8A21A2C80B276004DAC06 /* EnvironmentList.swift */; };
-		0DDF15672D3D61D800DACE02 /* GameDisc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF15662D3D61D500DACE02 /* GameDisc.swift */; };
+		0DDF15672D3D61D800DACE02 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF15662D3D61D500DACE02 /* GameModel.swift */; };
 		0DE0D5AB2C85B1E6004EF5ED /* MetadataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0D5AA2C85B1E6004EF5ED /* MetadataView.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,11 +51,8 @@
 		0D816B632C4574CE00FE14EB /* DevPackerUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevPackerUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D816B672C4574CE00FE14EB /* DevPackerUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevPackerUIUITests.swift; sourceTree = "<group>"; };
 		0D816B692C4574CE00FE14EB /* DevPackerUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevPackerUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0D816B7B2C4EDB2500FE14EB /* GamePackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePackage.swift; sourceTree = "<group>"; };
-		0DB10B842D3E9F5D00F4DE2F /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
-		0DB10B872D3E9FB700F4DE2F /* PackageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageType.swift; sourceTree = "<group>"; };
 		0DD8A21A2C80B276004DAC06 /* EnvironmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentList.swift; sourceTree = "<group>"; };
-		0DDF15662D3D61D500DACE02 /* GameDisc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDisc.swift; sourceTree = "<group>"; };
+		0DDF15662D3D61D500DACE02 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		0DE0D5AA2C85B1E6004EF5ED /* MetadataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,8 +95,7 @@
 		0D37563B2C7799CD002ED731 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0DDF15662D3D61D500DACE02 /* GameDisc.swift */,
-				0D816B7B2C4EDB2500FE14EB /* GamePackage.swift */,
+				0DDF15662D3D61D500DACE02 /* GameModel.swift */,
 				0D37563D2C77C130002ED731 /* FilesystemTableEntryModel.swift */,
 			);
 			path = Models;
@@ -187,7 +180,6 @@
 		0DB10B832D3E9ECF00F4DE2F /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
-				0DB10B842D3E9F5D00F4DE2F /* Environment.swift */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
@@ -195,7 +187,6 @@
 		0DB10B862D3E9FA700F4DE2F /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				0DB10B872D3E9FB700F4DE2F /* PackageType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -337,13 +328,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DE0D5AB2C85B1E6004EF5ED /* MetadataView.swift in Sources */,
-				0D816B7C2C4EDB2500FE14EB /* GamePackage.swift in Sources */,
 				0D37563E2C77C130002ED731 /* FilesystemTableEntryModel.swift in Sources */,
-				0DDF15672D3D61D800DACE02 /* GameDisc.swift in Sources */,
+				0DDF15672D3D61D800DACE02 /* GameModel.swift in Sources */,
 				0D3756402C77C410002ED731 /* FilesystemTableList.swift in Sources */,
 				0DD8A21B2C80B276004DAC06 /* EnvironmentList.swift in Sources */,
-				0DB10B882D3E9FBF00F4DE2F /* PackageType.swift in Sources */,
-				0DB10B852D3E9F7B00F4DE2F /* Environment.swift in Sources */,
 				0D816B4A2C4574CD00FE14EB /* DevPackerUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
